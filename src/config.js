@@ -1,5 +1,6 @@
 export default {
   MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY:"pk_test_cXkn61HWTdl8Dq1UnGPgcm6e00TNRgYulT",
   s3: {
     REGION: "eu-central-1",
     BUCKET: "serverless-vb-bucket"
