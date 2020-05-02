@@ -5,6 +5,9 @@ import { Amplify } from 'aws-amplify';
 import config from './config'
 import './index.css';
 import App from './App';
+import { initSentry } from './libs/errorLib';
+
+initSentry();
 // import * as serviceWorker from './serviceWorker';
 
 Amplify.configure({
